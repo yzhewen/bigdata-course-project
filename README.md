@@ -2,8 +2,7 @@
 There are solutions for three tasks in my Big Data course porject. 
 
 **Mention:**
-**The punctuations in texts are not considered.** 
-**You could use `.replace()` or `re.sub()` in these `mapper.py` files to realize some transformation.**
+* The punctuations in texts are not considered. You could use `.replace()` or `re.sub()` in these `mapper.py` files to realize some transformation.
 
 ## Task 01
 There are three files in `task01`.

@@ -2,7 +2,8 @@
 There are solutions for three tasks in my Big Data course porject.
 
 ## Task 01
-There are three files in `task01`. Please make sure your file path in HDFS, and put your file path of text corpus into the `-input` in `run01.sh`. 
+There are three files in `task01`. 
+Please make sure your file path in HDFS, and put your file path of text corpus into the `-input` in `run01.sh`. 
 
 Use `time` command to record the running time:
 ```
@@ -32,7 +33,7 @@ After setting your file path in `run02.sh`, you could command:
 ```
 
 ## Task 03
-There are nine files in this three-step task. You could realize it by the file names. 
+See file `task03`. There are nine files in this three-step task. You could realize it by the file names. 
 
 **What I have to mention is that:**
 * The original text corpus cannot be used if you still use commas to split variables. Because of the commas in these filenames, the `.split(',', 1)` function will be confused. 

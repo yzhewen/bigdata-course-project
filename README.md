@@ -1,5 +1,6 @@
 # bigdata-course-project
-There are solutions for three tasks in my Big Data course porject.
+There are solutions for three tasks in my Big Data course porject. 
+**Mention: the punctuations in texts are not considered. You could use `.replace()` or `re.sub()` in these `mapper.py` files to realize some transformation.**
 
 ## Task 01
 There are three files in `task01`.
@@ -15,6 +16,17 @@ By my MapReduce System, the output showed:
 real 8m50.352s
 user 0m6.884s
 sys 0m0.544s
+```
+Use `hdfs dfs -cat OUTPUT_PATH/part-00000` command to check the outputs: 
+```
+...
+a	330283
+aaron	113
+...
+abductions	2
+abductor	3
+abductors	2
+...
 ```
 
 ## Task 02
@@ -33,6 +45,15 @@ import os
 After setting your file path in `run02.sh`, you could command: 
 ```
 ./run02.sh
+```
+Use `hdfs dfs -cat OUTPUT_PATH/part-00000` command: 
+```
+...
+trouvent	{'Andrew-Lang___Old-Friends---Essays-in-Epistolary-Parody.txt': [2664, 2652]}
+...
+remarks?    {'Anthony-Trollope___He-Knew-He-Was-Right.txt': [34777]}
+remarks;    {'Abraham-Lincoln___The-Writings-of-Abraham-Lincoln-Volume-5--1858-1862.txt': [6824], 'Beatrix-Potter___The-Tale-of-Johnny-Town-Mouse.txt': [61], 'Ambrose-Bierce___The-Devilss-Dictionary.txt': [571], 'Andrew-Lang___John-Knox-and-the-Reformation.txt': [7700], 'Anthony-Trollope___Miss-Mackenzie.txt': [8592]}
+...
 ```
 
 ## Task 03
@@ -54,4 +75,16 @@ Then after setting your file path in these `.sh`, you could separately command:
 ```
 ```
 ./run0303.sh
+```
+Use `hdfs dfs -cat OUTPUT_PATH/part-00000` command: 
+```
+...
+lowering,Anthony-Trollope___The-Prime-Minister.txt	7.28318916935e-07
+lowering,Andrew-Lang___The-Grey-Fairy-Book.txt	2.08061697229e-06
+lowering,Anthony-Trollope___Life-of-Cicero-Volume-One.txt	1.68287839521e-06
+unlearned,Andrew-Lang___Essays-in-Little.txt	8.18022675589e-06
+unlearned,Andrew-Lang___Letters-to-Dead-Authors.txt	1.36579266053e-05
+unlearned,Alexander-Pope___The-Works-of-Alexander-Pope,-Volume-1.txt	2.48569619932e-06
+unlearned,Anthony-Trollope___Lady-Anna.txt	3.42462756224e-06
+...
 ```

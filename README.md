@@ -18,7 +18,9 @@ sys 0m0.544s
 ```
 
 ## Task 02
-There are three files in `task02`. Please make sure your file path in HDFS, and put your file path of text corpus into the `-input` in `run02.sh`.
+There are three files in `task02`. 
+
+Please make sure your file path in HDFS, and put your file path of text corpus into the `-input` in `run02.sh`.
 
 **What I have to mention is that:**
 * First, the function `environ` in package `os`.  

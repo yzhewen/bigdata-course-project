@@ -52,10 +52,10 @@ After setting your file path in `run02.sh`, you could command:
 Use `hdfs dfs -cat OUTPUT_PATH/part-00000` command: 
 ```
 ...
-trouvent	{'Andrew-Lang___Old-Friends---Essays-in-Epistolary-Parody.txt': [2664, 2652]}
+trouvent {'Andrew-Lang___Old-Friends---Essays-in-Epistolary-Parody.txt': [2664, 2652]}
 ...
-remarks?    {'Anthony-Trollope___He-Knew-He-Was-Right.txt': [34777]}
-remarks;    {'Abraham-Lincoln___The-Writings-of-Abraham-Lincoln-Volume-5--1858-1862.txt': [6824], 'Beatrix-Potter___The-Tale-of-Johnny-Town-Mouse.txt': [61], 'Ambrose-Bierce___The-Devilss-Dictionary.txt': [571], 'Andrew-Lang___John-Knox-and-the-Reformation.txt': [7700], 'Anthony-Trollope___Miss-Mackenzie.txt': [8592]}
+remarks? {'Anthony-Trollope___He-Knew-He-Was-Right.txt': [34777]}
+remarks; {'Abraham-Lincoln___The-Writings-of-Abraham-Lincoln-Volume-5--1858-1862.txt': [6824], 'Beatrix-Potter___The-Tale-of-Johnny-Town-Mouse.txt': [61], 'Ambrose-Bierce___The-Devilss-Dictionary.txt': [571], 'Andrew-Lang___John-Knox-and-the-Reformation.txt': [7700], 'Anthony-Trollope___Miss-Mackenzie.txt': [8592]}
 ...
 ```
 

@@ -28,7 +28,7 @@ Please make sure your file path in HDFS, and put your file path of text corpus i
 import os
 ```
 
-* Besides, `"mapreduce_map_input_file"` and `"map_input_file"` in `os.environ` are similar. To prove this, I used these two in different files in task02 and task03 separately. 
+* Besides, `"mapreduce_map_input_file"` and `"map_input_file"` in `os.environ` are similar. To prove this, I used these two in different files in `task02` and `task03` separately. 
 
 After setting your file path in `run02.sh`, you could command: 
 ```

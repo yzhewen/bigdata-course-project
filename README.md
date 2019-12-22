@@ -10,7 +10,7 @@ Use `time` command to record the running time:
 ```
 time sh run01.sh
 ```
-By my MapReduce system, the output showed: 
+By my MapReduce System, the output showed: 
 ```
 real 8m50.352s
 user 0m6.884s

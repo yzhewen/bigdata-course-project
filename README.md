@@ -2,7 +2,8 @@
 There are solutions for three tasks in my Big Data course porject.
 
 ## Task 01
-There are three files in `task01`. 
+There are three files in `task01`.
+
 Please make sure your file path in HDFS, and put your file path of text corpus into the `-input` in `run01.sh`. 
 
 Use `time` command to record the running time:
